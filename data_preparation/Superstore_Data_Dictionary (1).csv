@@ -1,0 +1,10 @@
+Column,Description,Data Type
+Order Date,Date when the order was placed,Date
+Region,Geographical sales region,Text
+State,State where the sale occurred,Text
+Category,Main product category,Text
+Sub-Category,Specific product type,Text
+Segment,Customer segment,Text
+Sales,Sales amount,Decimal
+Profit,Profit or loss from the sale,Decimal
+Quantity,Number of items sold,Integer
