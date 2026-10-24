@@ -64,3 +64,35 @@ Conclusion
 The dataset was checked for missing values, duplicate rows, invalid dates, and appropriate data types. No missing values or invalid dates were found. Two duplicate rows were detected and documented for further review.
 
 Status: Day 4 documentation completed.
+
+## Day 5: Data Quality Validation
+
+### Validation Summary
+
+The Superstore dataset was checked to verify its data quality before further analysis.
+
+- Total records: 9,994
+- Total columns: 9
+- Missing values: 0
+- Invalid order dates: 0
+- Duplicate rows detected: 2
+
+### Validation Checks
+
+1. Checked the dataset shape and column names.
+2. Verified missing values in all columns.
+3. Checked duplicate records.
+4. Converted Order Date into a date format.
+5. Verified the earliest and latest order dates.
+6. Confirmed the cleaned dataset was saved as `Superstore_Cleaned.csv`.
+
+### Date Range
+
+- Earliest order date: 2014-01-03
+- Latest order date: 2017-12-30
+
+### Conclusion
+
+The dataset contains 9,994 records and 9 columns. No missing values or invalid dates were detected. Two duplicate rows were identified and documented for further review.
+
+The validation results were recorded as part of the Data Preparation role.
