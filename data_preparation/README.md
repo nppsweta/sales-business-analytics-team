@@ -125,3 +125,27 @@ Output file: `Superstore_Data_Dictionary.csv`
 The cleaned dataset and data dictionary were saved successfully in Google Colab.
 
 These files support the Data Preparation stage of the Sales Business Analytics project.
+Day 7: Data Quality Validation
+
+Objective
+
+Validate the Superstore dataset to check data completeness, duplicate records, and date validity.
+
+Validation Results
+
+- Total records: 9,994
+- Total columns: 9
+- Missing values: 0
+- Duplicate rows detected: 2
+- Invalid order dates: 0
+- Order Date data type: datetime
+- Earliest order date: 2014-01-03
+- Latest order date: 2017-12-30
+
+Validation Summary
+
+The dataset was checked for missing values, duplicate records, and invalid order dates. No missing values or invalid dates were found. Two duplicate rows were identified and documented for further review.
+
+Outcome
+
+The data quality validation results have been documented to support the reliability and consistency of the Superstore dataset.
