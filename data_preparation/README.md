@@ -125,7 +125,8 @@ Output file: `Superstore_Data_Dictionary.csv`
 The cleaned dataset and data dictionary were saved successfully in Google Colab.
 
 These files support the Data Preparation stage of the Sales Business Analytics project.
-Day 7: Cleaned Dataset Documentation
+
+## Day 7: Cleaned Dataset Documentation
 
 Objective
 
