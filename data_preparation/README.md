@@ -166,3 +166,34 @@ The cleaned dataset documentation provides an overview of the data structure and
 
 Role: Data Preparation
 Commit: Day 7 - Cleaned Dataset Documentation
+## Day 8: Data Quality Checks
+
+Objective
+
+To verify the quality and reliability of the Superstore sales dataset before further analysis.
+
+Quality Checks Performed
+
+- Checked the dataset structure and column names.
+- Checked for missing values.
+- Identified duplicate records.
+- Verified the Order Date column format.
+- Checked data types of numerical and categorical columns.
+- Reviewed sales, profit, and quantity values for consistency.
+
+Validation Results
+
+- Total records: 9,994
+- Total columns: 9
+- Missing values: 0
+- Duplicate rows identified: 2
+- Order Date converted to datetime format.
+- Cleaned dataset dimensions: 9,994 rows × 9 columns.
+
+Outcome
+
+The data quality checks were documented to support reliable data preparation. The cleaned dataset and data dictionary are maintained as separate deliverables.
+
+Role: Data Preparation
+Project: Sales Business Analytics
+Commit: Day 8 - Document Data Quality Checks
