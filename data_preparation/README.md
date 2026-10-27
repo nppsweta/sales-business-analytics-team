@@ -197,3 +197,29 @@ The data quality checks were documented to support reliable data preparation. Th
 Role: Data Preparation
 Project: Sales Business Analytics
 Commit: Day 8 - Document Data Quality Checks
+
+## Day 9: Data Cleaning and Validation Results
+
+### Objective
+Document the cleaning and validation results of the Superstore sales dataset.
+
+### Validation Results
+- Original dataset rows: 9,994
+- Original dataset columns: 9
+- Missing values: 0
+- Duplicate rows identified in the saved dataset: 2
+- Invalid order dates: 0
+- Order Date converted to datetime format
+- Earliest order date: 2014-01-03
+- Latest order date: 2017-12-30
+
+### Data Preparation Summary
+- Checked the dataset structure and column names.
+- Verified missing values and duplicate records.
+- Validated the Order Date column.
+- Reviewed data types for all columns.
+- Documented the validation results for future reference.
+
+### Outcome
+The validation results were documented to support data quality and transparency in the sales analytics project.
+  
