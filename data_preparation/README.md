@@ -222,4 +222,36 @@ Document the cleaning and validation results of the Superstore sales dataset.
 
 ### Outcome
 The validation results were documented to support data quality and transparency in the sales analytics project.
-  
+## Day 10: Final Dataset Schema and Data Types
+
+## Objective
+
+Document the final structure of the cleaned Superstore sales dataset, including column names, data types, and purposes.
+
+## Final Dataset Schema
+
+Column Name| Data Type| Description
+Order Date| DateTime| Date when the order was placed
+Region| Text| Geographical sales region
+State| Text| State where the sale occurred
+Category| Text| Main product category
+Sub-Category| Text| Specific product type
+Segment| Text| Customer segment
+Sales| Float| Sales amount
+Profit| Float| Profit or loss amount
+Quantity| Integer| Number of items sold
+
+## Schema Validation
+
+- Confirmed that the dataset contains 9 columns.
+- Verified the expected column names.
+- Converted Order Date to datetime format.
+- Checked numeric data types for Sales, Profit, and Quantity.
+- Documented the purpose of each column.
+
+## Expected Output
+
+The final dataset schema is documented to support consistent data preparation and future sales analysis.
+
+Role: Data Preparation
+Dataset: Superstore Sales Dataset
