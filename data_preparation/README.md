@@ -255,3 +255,24 @@ The final dataset schema is documented to support consistent data preparation an
 
 Role: Data Preparation
 Dataset: Superstore Sales Dataset
+
+## Day 11: Data Quality Validation
+
+### Dataset Overview
+- Dataset: Superstore Sales
+- Total records: 9,994
+- Total columns: 9
+
+### Validation Checks
+- Missing values: 0
+- Invalid order dates: 0
+- Duplicate rows identified: 2
+- Order Date converted to datetime format
+- Sales and Profit stored as decimal values
+- Quantity stored as integer values
+
+### Validation Summary
+The dataset was checked for missing values, duplicate records, invalid dates, and appropriate data types. No missing values or invalid dates were found. Two suspected duplicate rows were identified for review.
+
+### Outcome
+Data quality validation results were documented to support reliable and consistent data preparation.
