@@ -1,0 +1,53 @@
+
+import pandas as pd
+
+# Load cleaned dataset
+df = pd.read_csv("Superstore_Cleaned.csv")
+
+# Required columns
+required_columns = [
+    "Order Date",
+    "Region",
+    "State",
+    "Category",
+    "Sub-Category",
+    "Segment",
+    "Sales",
+    "Profit",
+    "Quantity"
+]
+
+print("DATA VALIDATION REPORT")
+print("----------------------")
+
+# Check dataset shape
+print("Dataset Shape:", df.shape)
+
+# Check required columns
+missing_columns = [
+    col for col in required_columns if col not in df.columns
+]
+print("Missing Columns:", missing_columns)
+
+# Check missing values
+print("\nMissing Values:")
+print(df.isnull().sum())
+
+# Check duplicate records
+print("\nDuplicate Rows:", df.duplicated().sum())
+
+# Check data types
+print("\nData Types:")
+print(df.dtypes)
+
+# Check numerical values
+print("\nNumerical Summary:")
+print(df[["Sales", "Profit", "Quantity"]].describe())
+
+# Check date format
+df["Order Date"] = pd.to_datetime(
+    df["Order Date"], errors="coerce"
+)
+print("\nInvalid Dates:", df["Order Date"].isnull().sum())
+
+print("\nData validation completed successfully!")
