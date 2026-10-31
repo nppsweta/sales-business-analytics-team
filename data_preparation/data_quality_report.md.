@@ -1,0 +1,35 @@
+
+# Data Quality Summary Report
+
+## Project
+Sales Business Analytics – Superstore Dataset
+
+## Dataset Overview
+- Total Records: 9,994
+- Total Columns: 9
+- Missing Values: 0
+- Suspected Duplicate Rows: 2
+- Invalid Dates: 0
+
+## Data Quality Checks
+
+### 1. Completeness
+Checked all columns for missing values.
+Result: No missing values found.
+
+### 2. Uniqueness
+Checked the dataset for duplicate records.
+Result: 2 suspected duplicate rows identified.
+
+### 3. Date Validation
+Verified and converted Order Date into datetime format.
+Result: No invalid dates found.
+
+### 4. Data Type Validation
+Verified numeric and text columns.
+Result: Data types are appropriate for analysis.
+
+## Conclusion
+The Superstore dataset has been cleaned and
+validated. The prepared dataset is suitable
+for further business analytics activities.
