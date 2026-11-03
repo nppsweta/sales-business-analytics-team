@@ -1,0 +1,36 @@
+Column Validation Rules
+
+Dataset: Superstore Sales
+
+This document describes validation rules for each column in the cleaned Superstore dataset.
+
+Column| Data Type| Validation Rule
+Order Date| Date| Must contain valid dates
+Region| Text| Must contain valid region names
+State| Text| Must not be empty
+Category| Text| Must contain valid categories
+Sub-Category| Text| Must not be empty
+Segment| Text| Must contain valid customer segments
+Sales| Decimal| Must contain numeric values
+Profit| Decimal| Must contain numeric values
+Quantity| Integer| Must contain whole numbers
+
+General Validation Checks
+
+1. Check for missing values.
+2. Identify duplicate records.
+3. Verify column data types.
+4. Validate date formats.
+5. Check numerical columns for invalid values.
+6. Verify categorical column values.
+
+Expected Dataset Structure
+
+- Total Records: 9,994
+- Total Columns: 9
+- Missing Values: 0
+- Invalid Dates: 0
+
+Conclusion
+
+Column validation rules help maintain data accuracy, consistency, and reliability. These checks support the preparation of a clean dataset for further analysis.
